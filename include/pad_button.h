@@ -1,0 +1,50 @@
+#ifndef NX_TEST_PAD_BUTTON_H_
+#define NX_TEST_PAD_BUTTON_H_
+
+#include <switch.h>
+
+enum PadButton {
+  PadButton_A = HidNpadButton::HidNpadButton_A,
+  PadButton_B = HidNpadButton::HidNpadButton_B,
+  PadButton_X = HidNpadButton::HidNpadButton_X,
+  PadButton_Y = HidNpadButton::HidNpadButton_Y,
+  PadButton_StickL = HidNpadButton::HidNpadButton_StickL,
+  PadButton_StickR = HidNpadButton::HidNpadButton_StickR,
+  PadButton_L = HidNpadButton::HidNpadButton_L,
+  PadButton_R = HidNpadButton::HidNpadButton_R,
+  PadButton_ZL = HidNpadButton::HidNpadButton_ZL,
+  PadButton_ZR = HidNpadButton::HidNpadButton_ZR,
+  PadButton_Plus = HidNpadButton::HidNpadButton_Plus,
+  PadButton_Minus = HidNpadButton::HidNpadButton_Minus,
+  PadButton_Left = HidNpadButton::HidNpadButton_Left,
+  PadButton_Up = HidNpadButton::HidNpadButton_Up,
+  PadButton_Right = HidNpadButton::HidNpadButton_Right,
+  PadButton_Down = HidNpadButton::HidNpadButton_Down,
+  PadButton_StickLLeft = HidNpadButton::HidNpadButton_StickLLeft,
+  PadButton_StickLUp = HidNpadButton::HidNpadButton_StickLUp,
+  PadButton_StickLRight = HidNpadButton::HidNpadButton_StickLRight,
+  PadButton_StickLDown = HidNpadButton::HidNpadButton_StickLDown,
+  PadButton_StickRLeft = HidNpadButton::HidNpadButton_StickRLeft,
+  PadButton_StickRUp = HidNpadButton::HidNpadButton_StickRUp,
+  PadButton_StickRRight = HidNpadButton::HidNpadButton_StickRRight,
+  PadButton_StickRDown = HidNpadButton::HidNpadButton_StickRDown,
+  PadButton_LeftSL = HidNpadButton::HidNpadButton_LeftSL,
+  PadButton_LeftSR = HidNpadButton::HidNpadButton_LeftSR,
+  PadButton_RightSL = HidNpadButton::HidNpadButton_RightSL,
+  PadButton_RightSR = HidNpadButton::HidNpadButton_RightSR,
+  PadButton_Palma = HidNpadButton::HidNpadButton_Palma,
+  PadButton_Verification = HidNpadButton::HidNpadButton_Verification,
+  PadButton_HandheldLeftB = HidNpadButton::HidNpadButton_HandheldLeftB,
+  PadButton_LagonCLeft = HidNpadButton::HidNpadButton_LagonCLeft,
+  PadButton_LagonCUp = HidNpadButton::HidNpadButton_LagonCUp,
+  PadButton_LagonCRight = HidNpadButton::HidNpadButton_LagonCRight,
+  PadButton_LagonCDown = HidNpadButton::HidNpadButton_LagonCDown,
+  PadButton_AnyLeft = HidNpadButton::HidNpadButton_AnyLeft,
+  PadButton_AnyUp = HidNpadButton::HidNpadButton_AnyUp,
+  PadButton_AnyRight = HidNpadButton::HidNpadButton_AnyRight,
+  PadButton_AnyDown = HidNpadButton::HidNpadButton_AnyDown,
+  PadButton_AnySL = HidNpadButton::HidNpadButton_AnySL,
+  PadButton_AnySR = HidNpadButton::HidNpadButton_AnySR,
+};
+
+#endif  // NX_TEST_PAD_BUTTON_H_
