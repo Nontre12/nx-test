@@ -3,11 +3,24 @@
 
 #include <switch.h>
 
+namespace nx_test {
+
 class Console {
  public:
-  Console() { consoleInit(nullptr); }
-  ~Console() { consoleExit(nullptr); }
-  void Update() { consoleUpdate(nullptr); }
+  Console();
+  ~Console();
+  void Update();
+  void Clear();
 };
+
+Console::Console() { consoleInit(nullptr); }
+
+Console::~Console() { consoleExit(nullptr); }
+
+void Console::Update() { consoleUpdate(nullptr); }
+
+void Console::Clear() { consoleClear(); }
+
+}  // namespace nx_test
 
 #endif  // NX_TEST_CONSOLE_H_
